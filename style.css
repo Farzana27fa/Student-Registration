@@ -1,0 +1,112 @@
+body{
+	margin: 0px;
+	border: 0px;
+	background-image: url(class.jpg) ;
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+   background-size: cover;
+    
+}
+
+
+
+#sidebar{
+	width: 300px;
+	height: 400px;
+	background: #e6f5ff;
+	float:left;
+}
+
+
+
+ul li{
+	padding:20px;
+	border-bottom: 2px solid grey;
+}
+
+ul li:hover{
+	background-color: #008ae6;
+	color:white;
+}
+
+.nav-wrapper {
+	text-align:center;
+	height: 30ptx;
+	font-size:1.5em;
+	border-bottom: 1px solid transparent;
+	border-left-style: solid grey;
+	transition:border-bottom 0.5s;
+	background-color: #b3e0ff;
+
+}
+.nav-wrapper a{
+	color: white;
+	transition: color 0.5s;
+	
+}
+
+.nav-wrapper a:hover{
+		color:black;
+		text-decoration: underline;
+}
+
+footer{
+	background-color: teal;
+	
+	opacity: 0.9;
+	color: white;
+	
+	margin-top: 400px;
+
+	text-align:center;
+	position: bottom;
+}
+
+#b{
+	text-align: center;
+	
+	
+	
+}
+
+#d{
+	height:550px;
+	text-align: center;
+	width:450px;
+	
+	border:3px solid blue;
+	border-radius:25px;
+	background-color: white;
+	opacity: 0.5;
+	color:black;
+	
+	
+}
+
+.menu-content
+{
+	text-align: center;
+}
+
+#bok{
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	opacity: 0.9;
+	padding: 55px;
+	
+	position: center;
+	
+}
+
+#bok h1{
+	text-align: center;
+	text-transform: uppercase;
+	color:black;
+}
+
+#bok h3{
+	text-align: justify;
+	color:black;
+	font-weight: normal;
+}
